@@ -5,11 +5,12 @@
 // Go to https://www.w3schools.com/js/js_errors.asp and throw a reference error
 
 let errorName = '';
-
+let x = 0;
+let g = 0;
 try {
-  // code here
+  x = y + 1 + g;
+  g = x + 4;
 } catch (error) {
   errorName = error.name;
 }
-
 module.exports = errorName;
