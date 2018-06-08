@@ -14,7 +14,15 @@ Look at the tests for 'roundTo' for all cases
 */
 
 function round(method, input, precision) {
-
+  let result;
+  if (method === 'round') {
+    result = +input.toFixed(precision);
+  } else if (method === 'ceil') {
+    result = +input.toFixed(precision);
+  } else if (method === 'floor') {
+    result = +input.toFixed(precision);
+  }
+  return result;
 }
 
 module.exports = round.bind(null, 'round');

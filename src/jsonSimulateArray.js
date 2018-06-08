@@ -22,6 +22,6 @@ const conference = {
 // You can access the individual properties of the object as if they were elements
 // in an associative array: `conference['startDay']`
 // Add a line of code to store the name of the conference's end day in variable endDayIs.
-const endDayIs = conference;
+const endDayIs = conference['endDay'];
 
 module.exports = endDayIs;
