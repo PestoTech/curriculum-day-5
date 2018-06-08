@@ -4,6 +4,9 @@
 
 // Return a boolean
 
-const a = 5;
-
+let a = 5;
+function bool(x) {
+  return Boolean(x);
+}
+a = bool(a);
 module.exports = a;
