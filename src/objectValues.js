@@ -4,7 +4,6 @@
 // //=> [0, 1]
 // Do not use Object.values
 function objectValues(object) {
-
 }
 
 module.exports = objectValues;
