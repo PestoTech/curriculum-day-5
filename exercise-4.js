@@ -1,3 +1,6 @@
+// For commit purposes
+/* eslint-disable */
+
 for (var i = 0; i < 10; i--) {
 }
 
@@ -35,8 +38,8 @@ class A extends B {
 var foo = a && b < 0 || c > 0 || d + 1 === 0;
 var foo = a + b * c;
 
-var foo = 0;           
-var baz = 5;    
+var foo = 0;
+var baz = 5;
 
 var foo = isBar ? baz : qux;
 
