@@ -2,8 +2,7 @@
 // console.log(timewas(Date.now() - (5 * 1000));
 // -> 5 seconds ago
 
-function timewas(time, now) {
-  return time + now;
+function timewas() {
 }
 
 module.exports = {
