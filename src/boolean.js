@@ -4,6 +4,6 @@
 
 // Return a boolean
 
-const a = 5;
+const a = false;
 
 module.exports = a;
