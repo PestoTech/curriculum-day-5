@@ -4,7 +4,8 @@
 // countDaysInMonth(2016, 8); //=> 30
 
 function countDaysInMonth(year, month) {
-  return year + month;
+  return new Date(year, month, 0).getDate();
 }
+
 
 module.exports = { countDaysInMonth };
