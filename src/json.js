@@ -24,6 +24,7 @@ const clubMember = {
   'firstname': 'John',
   'lastname': 'Doe',
   'memberStatus': 'Full',
+  'city': 'New Delhi',
 };
 
 module.exports = clubMember;

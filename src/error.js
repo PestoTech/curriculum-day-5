@@ -7,7 +7,7 @@
 let errorName = '';
 
 try {
-  // code here
+  throw new ReferenceError([ReferenceError]);
 } catch (error) {
   errorName = error.name;
 }
