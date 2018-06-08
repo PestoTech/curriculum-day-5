@@ -2,7 +2,6 @@
 // => {bar: 'foo', rainbow: 'unicorn'}
 
 function invertKeyValue() {
-
 }
 
 module.exports = invertKeyValue;
