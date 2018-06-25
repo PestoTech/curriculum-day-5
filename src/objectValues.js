@@ -4,7 +4,8 @@
 // //=> [0, 1]
 // Do not use Object.values
 function objectValues(object) {
-
+  const values = Object.keys(object).map(e => object[e]);
+  return values;
 }
 
 module.exports = objectValues;

@@ -4,10 +4,11 @@
 
 // Go to https://www.w3schools.com/js/js_errors.asp and throw a reference error
 
+/* eslint-disable */
 let errorName = '';
-
+let x;
 try {
-  // code here
+  x = y + 1;
 } catch (error) {
   errorName = error.name;
 }

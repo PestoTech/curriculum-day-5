@@ -10,6 +10,6 @@ Sara.age = 36;
 Sara.eyecolor = 'brown';
 
 // serialize the object using JSON.stringify():
-const saraStringified = Sara;
+const saraStringified = JSON.stringify(Sara);
 
 module.exports = saraStringified;
