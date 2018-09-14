@@ -8,6 +8,7 @@ let errorName = '';
 
 try {
   // code here
+  console.log(errorName2);
 } catch (error) {
   errorName = error.name;
 }

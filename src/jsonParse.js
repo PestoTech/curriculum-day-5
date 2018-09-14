@@ -5,7 +5,7 @@
 const Sara = '{ "height":1.9, "age":36, "eyeColor":"brown"}';
 
 // use JSON.parse() to create an object 'objectSara':
-const objectSara = `${Sara} add code here`;
+const objectSara = JSON.parse(`${Sara}`);
 
 
 module.exports = objectSara;
