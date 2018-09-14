@@ -7,7 +7,8 @@
 let errorName = '';
 
 try {
-  // code here
+  // eslint-disable-next-line
+  const sum = num1 + num2 + 5;
 } catch (error) {
   errorName = error.name;
 }
