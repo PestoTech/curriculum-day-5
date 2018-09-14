@@ -8,6 +8,7 @@ let errorName = '';
 
 try {
   // code here
+  throw new ReferenceError('.');
 } catch (error) {
   errorName = error.name;
 }
