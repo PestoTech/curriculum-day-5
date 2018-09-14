@@ -8,6 +8,8 @@ let errorName = '';
 
 try {
   // code here
+  // eslint-disable-next-line
+  x += 1;
 } catch (error) {
   errorName = error.name;
 }

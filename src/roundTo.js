@@ -14,7 +14,6 @@ Look at the tests for 'roundTo' for all cases
 */
 
 function round(method, input, precision) {
-
 }
 
 module.exports = round.bind(null, 'round');
